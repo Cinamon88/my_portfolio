@@ -1,5 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/prop-types */
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/no-unknown-property */
-import React from 'react'
+
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../style';
