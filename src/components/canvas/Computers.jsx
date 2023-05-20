@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
 
 import { Suspense, useEffect, useState } from "react"
 import { Canvas } from "@react-three/fiber"
@@ -54,7 +56,7 @@ const ComputersCanvas = () => {
     <Canvas 
       frameloop="demand"
       shadows
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [20, 3, 5], fov: 28 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
