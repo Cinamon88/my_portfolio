@@ -3,6 +3,7 @@ import {
     backend,
     creator,
     web,
+    bootstrap,
     javascript,
     typescript,
     html,
@@ -13,8 +14,8 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
+    nestjs,
+    mysql,
     kodilla,
     carrent,
     jobit,
@@ -66,6 +67,10 @@ import {
       icon: css,
     },
     {
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -90,6 +95,10 @@ import {
       icon: nodejs,
     },
     {
+      name: "Nest JS",
+      icon: nestjs,
+    },
+    {
       name: "MongoDB",
       icon: mongodb,
     },
@@ -102,13 +111,10 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "MySQL",
+      icon: mysql,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
   ];
   
   const experiences = [
