@@ -17,9 +17,9 @@ import {
     nestjs,
     mysql,
     kodilla,
-    carrent,
-    jobit,
-    tripguide,
+    furniture,
+    festival,
+    pizzeria,
     threejs,
   } from "../assets";
   
@@ -164,7 +164,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "No testimonial yet. But I hope it will appear here soon :)",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -172,7 +172,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "No testimonial yet. But I hope it will appear here soon :)",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -180,7 +180,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "No testimonial yet. But I hope it will appear here soon :)",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -190,30 +190,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Furniture Shop",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This team project is a furniture store website, in accordance with the client's guidelines. Used React technologies, Redux and Bootstrap.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: furniture,
+      source_code_link: "https://github.com/Cinamon88/FurnitureShop",
     },
     {
-      name: "Job IT",
+      name: "New Festival App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to book a ticket for an event. Used SCSS, React technologies, Redux and RestAPI. Connected to MongoDB.",
       tags: [
         {
           name: "react",
@@ -228,20 +228,20 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: festival,
+      source_code_link: "https://github.com/Cinamon88/rest_api",
     },
     {
-      name: "Trip Guide",
+      name: "Pizzeria MammaMia!",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A modest Pizzeria page where you can order your favorite pizza and book a table! Used VanillaJS, SCSS, Handlebars. Used AJAX technologie with API.",
       tags: [
         {
-          name: "nextjs",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "handlebars",
           color: "green-text-gradient",
         },
         {
@@ -249,8 +249,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: pizzeria,
+      source_code_link: "https://github.com/Cinamon88/project-pizzeria",
     },
   ];
   

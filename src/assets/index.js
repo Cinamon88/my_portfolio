@@ -28,9 +28,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import kodilla from "./company/kodilla.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import furniture from "./furniture.png";
+import festival from "./festival.png";
+import pizzeria from "./pizzeria.png";
 
 export {
   logo,
@@ -60,7 +60,7 @@ export {
   starbucks,
   kodilla,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  furniture,
+  festival,
+  pizzeria,
 };
