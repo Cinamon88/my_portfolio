@@ -10,7 +10,6 @@ import {
     css,
     reactjs,
     redux,
-    tailwind,
     nodejs,
     mongodb,
     git,
@@ -40,7 +39,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
@@ -121,7 +120,7 @@ import {
       iconBg: "#383E56",
       date: "July 2022 - May 2023",
       points: [
-        "A 800 hours course, from 06.07.2022 to 17.05.2023.",
+        "A 800 hours course.",
         "Developing and maintaining web applications using HTML, CSS, JavaScript, TypeScript, Node.js, React.js, Nest.js, MySQL and other related technologies.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
@@ -135,7 +134,7 @@ import {
       date: "Dec 2022 - Jan 2023",
       points: [
         "Work in a team of 6 for 3 weeks.",
-        "The project was to build a web app accordance with the client needs.",
+        "The project was to build a web app accordingly with the client needs.",
         "Doing tasks assigned by Project Manager in Jaira.",
         "Weekly video meetings.",
       ],
