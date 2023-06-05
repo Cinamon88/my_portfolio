@@ -24,10 +24,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src='src/assets/logo.png' alt="logo" className="w-9
-          h-9 object-contain" />
           <p className="text-white text-[18px] 
-          font-bold cursor-pointer flex">Łukasz &nbsp; <span className="sm:block hidden">|
+          font-bold cursor-pointer flex"><span className="text-[#718093]">L</span><span className="text-[#27ae60]">/</span>
+          <span className="text-[#718093]">G</span>  &nbsp; <span className="sm:block hidden">|
           Junior FS Developer</span></p>
         </Link>
         <ul className="list-none hidden sm:flex
