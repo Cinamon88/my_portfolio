@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center 
         items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#27ae60]" />
-          <div className="w-1 sm:h-80 h-40" />
+          <div className="w-1 sm:h-80 h-40 green-gradient" />
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
