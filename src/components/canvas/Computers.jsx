@@ -23,8 +23,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive 
         object={computer.scene}
-        scale={isMobile ? 0.6 : 0.75}
-        position={isMobile ? [0, -2, -2.2] : [0, -3.25, -1.5]}
+        scale={isMobile ? 0.4 : 0.75}
+        position={isMobile ? [0, -1.7, -1.5] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -54,7 +54,6 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas 
-      frameloop="demand"
       shadows
       camera={{ position: [20, 3, 5], fov: 28 }}
       gl={{ preserveDrawingBuffer: true }}
