@@ -19,6 +19,7 @@ import {
     furniture,
     festival,
     pizzeria,
+    ecopudelka,
     threejs,
   } from "../assets";
   
@@ -246,6 +247,27 @@ import {
       ],
       image: pizzeria,
       source_code_link: "https://github.com/Cinamon88/project-pizzeria",
+    },
+    {
+      name: "www.ecopudelka.pl",
+      description:
+        "Fullstack official ecommerce shop where you can buy boxes :) JavaScript, React & NextJS used. Connected with Stripe & Sanity.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nextjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "stripe",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ecopudelka,
+      source_code_link: "https://github.com/Cinamon88/ecopudelka_ecommerce",
     },
   ];
   
