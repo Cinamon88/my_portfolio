@@ -251,10 +251,10 @@ import {
     {
       name: "www.ecopudelka.pl",
       description:
-        "Fullstack official ecommerce shop where you can buy boxes :) JavaScript, React & NextJS used. Connected with Stripe & Sanity.",
+        "Fullstack official ecommerce shop where you can buy boxes :) TypeScript & NextJS used. Connected with Stripe & MongoDB.",
       tags: [
         {
-          name: "javascript",
+          name: "typescript",
           color: "blue-text-gradient",
         },
         {
@@ -267,7 +267,8 @@ import {
         },
       ],
       image: ecopudelka,
-      source_code_link: "https://github.com/Cinamon88/ecopudelka_ecommerce",
+      source_code_link: "https://www.ecopudelka.pl",
+      
     },
   ];
   

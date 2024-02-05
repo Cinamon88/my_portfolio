@@ -27,6 +27,7 @@ import furniture from "./furniture.png";
 import festival from "./festival.png";
 import pizzeria from "./pizzeria.png";
 import ecopudelka from "./ecopudelka.png"
+import link from "./link.png"
 
 export {
   logo,
@@ -54,5 +55,6 @@ export {
   furniture,
   festival,
   pizzeria,
-  ecopudelka
+  ecopudelka,
+  link
 };
